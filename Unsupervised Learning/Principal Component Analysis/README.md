@@ -1,8 +1,7 @@
----
-
 # **Principal Component Analysis (PCA) Resources**  
 
 This README is a collection of resources from my study to understand Principal Component Analysis (PCA). It includes high-quality references for learning and applying PCA in data science and machine learning. Whether you're a beginner or an advanced practitioner, these materials will help you visualize, implement, and interpret PCA effectively.
+
 ---
 
 ## **PCA sklearn Documentation**
@@ -27,16 +26,16 @@ This README is a collection of resources from my study to understand Principal C
 [Visualize Principal Component Analysis (PCA) with Plotly](https://plotly.com/python/pca-visualization/) – Learn how to explore high-dimensional data by creating interactive PCA visualizations in Python using Plotly.  
 
 ## **arXiv Research and Tutorial**
-    1. [A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100)
-    2. [Principal Component Analysis: A Natural Approach to Data Exploration](https://arxiv.org/pdf/1804.02502)
-    3. [Principal Component Analysis for Equation Discovery](https://arxiv.org/pdf/2401.04797)
-    4. [Ensemble Principal Component Analysis](https://arxiv.org/pdf/2311.01826)
+1. [A Tutorial on Principal Component Analysis](https://arxiv.org/pdf/1404.1100)
+2. [Principal Component Analysis: A Natural Approach to Data Exploration](https://arxiv.org/pdf/1804.02502)
+3. [Principal Component Analysis for Equation Discovery](https://arxiv.org/pdf/2401.04797)
+4. [Ensemble Principal Component Analysis](https://arxiv.org/pdf/2311.01826)
 
 ## **Articles**
-    1. [What is principal component analysis (PCA)?](https://www.ibm.com/think/topics/principal-component-analysis)
-    2. [Principal components analysis by Andre NG](https://cs229.stanford.edu/notes2020spring/cs229-notes10.pdf)
-    3. [Implementing a Principal Component Analysis (PCA) by Sebastian Raschka](https://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
-    4. [Principal Component Methods in R: Practical Guide](https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/)
+1. [What is principal component analysis (PCA)?](https://www.ibm.com/think/topics/principal-component-analysis)
+2. [Principal components analysis by Andrew Ng](https://cs229.stanford.edu/notes2020spring/cs229-notes10.pdf)
+3. [Implementing a Principal Component Analysis (PCA) by Sebastian Raschka](https://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
+4. [Principal Component Methods in R: Practical Guide](https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/)
 ---
 
 *Want to explore PCA further? Check out these references!*
