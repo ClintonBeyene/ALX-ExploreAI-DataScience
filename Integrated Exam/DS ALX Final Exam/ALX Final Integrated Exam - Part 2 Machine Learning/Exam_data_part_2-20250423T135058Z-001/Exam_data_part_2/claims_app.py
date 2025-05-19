@@ -70,10 +70,21 @@ tabs = st.tabs([
 with tabs[0]:
     st.header('Interactive Data Explorer')
     with st.expander('Show Filtered Data Table', expanded=False):
-        st.dataframe(filtered_df, use_container_width=True)
+        # Ensure Arrow compatibility for all columns
+        display_df = filtered_df.copy()
+        for col in display_df.columns:
+            # Convert all non-numeric columns to string for Arrow compatibility
+            if not pd.api.types.is_numeric_dtype(display_df[col]):
+                display_df[col] = display_df[col].astype(str)
+        st.dataframe(display_df, use_container_width=True)
     st.info(narrative_summary(filtered_df))
     with st.expander('Summary Statistics', expanded=False):
-        st.write(filtered_df.describe(include='all'))
+        # Ensure Arrow compatibility for all columns in summary
+        summary_df = filtered_df.describe(include='all').copy()
+        for col in summary_df.columns:
+            if not pd.api.types.is_numeric_dtype(summary_df[col]):
+                summary_df[col] = summary_df[col].astype(str)
+        st.dataframe(summary_df, use_container_width=True)
 
 # --- VISUAL INSIGHTS TAB ---
 with tabs[1]:
